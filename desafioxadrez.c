@@ -17,13 +17,13 @@ int i = 1;
 printf("Uma casa para esquerda\n");
 i++;
 }
-// do while usado para mover o Bispo cinco casas para cima/direita
+// do while usado para mover o Bispo cinco casas na diagonal para cima/direita
 printf("Movimento do Bispo\n");
 int j = 1;
     do {
-printf("Uma casa para cima/direita\n");
+printf("Uma casa diagonal para cima/direita\n");
 j++;
     } while (j <= 5);
-    
+
     return 0;
 }   
