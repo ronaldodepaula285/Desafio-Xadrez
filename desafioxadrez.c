@@ -3,7 +3,7 @@
 
 
 int main() {
-    printf("Desafio Xadrez\n");
+    printf("***Desafio Xadrez***\n");
 
     // for usado para rmovimetar a torre cinco casas para cima
     printf("\nMovimento da torre\n");
@@ -36,7 +36,7 @@ int main() {
         printf("Uma casa para direita\n");
 
     }
-
+    printf("\n***Fim do Desafio Xadrez***\n");
 
     return 0;
 }   
